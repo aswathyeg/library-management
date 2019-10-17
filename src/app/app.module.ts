@@ -13,6 +13,7 @@ import { BookissueComponent } from './librarian/bookissue/bookissue.component';
 import { BookreturnComponent } from './librarian/bookreturn/bookreturn.component';
 import { SearchComponent } from './librarian/search/search.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { MembersEditComponent } from './admin/members/members-edit/members-edit.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DropdownDirective } from './shared/dropdown.directive';
     BookissueComponent,
     BookreturnComponent,
     SearchComponent,
-    DropdownDirective
+    DropdownDirective,
+    MembersEditComponent
   ],
   imports: [
     BrowserModule,
