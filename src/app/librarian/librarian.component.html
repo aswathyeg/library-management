@@ -3,7 +3,11 @@
         <app-bookissue></app-bookissue>
         <hr>
         <ul class="list-group">
-          <a class="list-group-item" style="cursor: pointer;"></a>
+          <a class="list-group-item" style="cursor: pointer;"
+          *ngFor="let member of members"
+          >
+        {{member.name}}  ({{member.memberId}})
+        </a>
 
         </ul>
     </div>
