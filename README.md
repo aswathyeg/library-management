@@ -1,6 +1,8 @@
 # Library Management 
 
-A Library Management application built using Angular.
+A Library Management application built using Angular. 
+
+Note: This is the development branch.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
